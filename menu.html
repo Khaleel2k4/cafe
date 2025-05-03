@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SereniTea Cafe – Menu</title>
+    <link rel="stylesheet" href="cafe.css">
+
+    <!-- Font Awesome for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Manasa<span>Tea</span> Cafe</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="admin.html">Admin_Login</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <section class="menu-container" id="menu-container">
+        <!-- Items will be inserted here by JS -->
+    </section>
+
+    <div id="order-form-container" style="display: none;" class="order-form-container">
+        <form id="orderForm">
+          <h2>Order Details</h2>
+          <input type="text" name="fullname" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="tel" name="contact" placeholder="Contact Number" required>
+          <textarea name="address" placeholder="Address" required></textarea>
+          <input type="text" name="state" placeholder="State" required>
+          <input type="text" name="country" placeholder="Country" required>
+          <input type="hidden" name="item" id="orderedItem">
+          <input type="hidden" name="price" id="orderedPrice">
+          
+        </form>
+      </div>
+      
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>SereniTea Cafe</h2>
+                <p>Infusing peace into every cup. Visit us for a mindful tea experience like no other.</p>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: hello@serenitea.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Hours: 9am - 9pm</p>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Join Our Community</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 SereniTea Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="cafe.js"></script>
+</body>
+
+</html>

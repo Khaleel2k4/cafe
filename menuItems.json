@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Assam Black Tea",
+      "price": 120,
+      "image": "images/assam.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Darjeeling First Flush",
+      "price": 150,
+      "image": "images/darjeeling.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chamomile Herbal",
+      "price": 130,
+      "image": "images/chamomile.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Matcha Green",
+      "price": 180,
+      "image": "images/matcha.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Oolong Classic",
+      "price": 140,
+      "image": "images/oolong.jpg"
+    }
+  ]
+  
